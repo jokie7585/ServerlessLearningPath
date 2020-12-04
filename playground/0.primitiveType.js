@@ -1,8 +1,17 @@
+
 /**
-*  Number
-*/
+ * 基本型別不重要，但看看下面會印出什麼吧？
+ */
 
-let Number_Int = 5;
-let Number_Float = 5.789;
+ let person = {
+     name: 'pekora'
+ }
 
-console.log({Sum: Number_Int+ Number_Float});
+
+
+ console.log(person.name);
+
+ /**
+  * 我相信一定會印出moona!!!但？？？？？
+  */
+ console.log(person.wife);
